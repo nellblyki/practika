@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with auto-restart",
+  "main": "bot.py",
+  "scripts": {
+    "start": "python bot.py",
+    "dev": "nodemon --exec python bot.py --ext py,env",
+    "watch": "nodemon --exec python bot.py --ext py,env --ignore *.db"
+  },
+  "keywords": ["telegram", "bot", "python"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 

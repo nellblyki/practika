@@ -1,0 +1,7 @@
+{
+  "watch": ["*.py", "*.env"],
+  "ignore": ["*.db", "__pycache__", "*.pyc", "node_modules"],
+  "ext": "py,env",
+  "exec": "python bot.py",
+  "delay": "1000"
+} 
